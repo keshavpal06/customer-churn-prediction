@@ -37,16 +37,27 @@ pandas, plotly
 churn_project/
 
 ├── data/                        # Telco Customer Churn CSV
+
 ├── output/
+
 │   ├── plots/                   # EDA, SHAP, survival plots
+
 │   ├── models/                  # Trained model + threshold
+
 │   └── data/                    # Processed train/test CSVs
+
 ├── 1_eda.py                     # Exploratory data analysis
+
 ├── 2_preprocessing.py           # Cleaning + encoding + split
+
 ├── 3_train_model.py             # XGBoost training + evaluation
+
 ├── 4_threshold_optimization.py  # Business cost optimization
+
 ├── 5_explain.py                 # SHAP global + local plots
+
 ├── 6_survival_analysis.py       # Cox PH + Kaplan-Meier curves
+
 └── 7_app.py                     # Streamlit dashboard
 
 ## Setup
@@ -80,3 +91,6 @@ streamlit run 7_app.py
 ## Dataset
 Telco Customer Churn — IBM Sample Dataset via Kaggle  
 7,043 customers, 21 features, 26.5% churn rate
+
+## Live Demo
+[View deployed app](https://keshavpal06-churn-prediction.streamlit.app)
