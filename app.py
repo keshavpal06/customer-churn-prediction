@@ -76,9 +76,9 @@ with tab1:
     st.markdown("---")
     st.subheader("Why this matters")
     st.write(
-        f"With an average monthly bill of **${avg_monthly:.2f} and "
-        f"**{churners:,}** customers churning, the company is exposed to "
-        f"approximately **${revenue_at_risk/1e6:.2f} M** in lost annual revenue. "
+        f"With an average monthly bill of ${avg_monthly:.2f} and "
+        f"{churners:,} customers churning, the company is exposed to "
+        f"approximately ${revenue_at_risk/1e6:.2f} M in lost annual revenue. "
         f"Targeting even a fraction of these customers with retention offers "
         f"could recover millions."
     )
